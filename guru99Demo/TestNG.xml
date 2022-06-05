@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Guru99 Demo automation"  verbose = "2">
+
+<test name="TC_001_Guru99ValidLogin" >
+<classes>
+<class name="testCases.TC_001_Guru99ValidLogin"/>
+</classes>
+</test>
+
+<test name="TC_002_Guru99InvalidLogin" >
+<classes>
+<class name="testCases.TC_002_Guru99InvalidLogin"/>
+</classes>
+</test>
+
+<test name="TC_003_AddCustMobileNumber" >
+<classes>
+<class name="testCases.TC_003_AddCustMobileNumber"/>
+</classes>
+</test>
+
+<test name="TC_004_AddNewCustomerEmail" >
+<classes>
+<class name="testCases.TC_004_AddNewCustomerEmail"/>
+</classes>
+</test>
+
+<test name="TC_005_AddCustPin" >
+<classes>
+<class name="testCases.TC_005_AddCustPin"/>
+</classes>
+</test>
+
+<test name="TC_006_CustomerIdVerification" >
+<classes>
+<class name="testCases.TC_006_CustomerIdVerification"/>
+</classes>
+</test>
+
+<test name="TC_007_ValidatingInitialDeposit" >
+<classes>
+<class name="testCases.TC_007_ValidatingInitialDeposit"/>
+</classes>
+</test>
+
+</suite>

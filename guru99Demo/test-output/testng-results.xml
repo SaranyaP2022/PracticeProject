@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="8" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-30T22:19:52 EDT" name=" Guru99 Demo automation" finished-at="2022-05-30T22:20:16 EDT" duration-ms="23836">
+    <groups>
+    </groups>
+    <test started-at="2022-05-30T22:19:52 EDT" name="TC_001_Guru99ValidLogin" finished-at="2022-05-30T22:19:57 EDT" duration-ms="4869">
+      <class name="testCases.TC_001_Guru99ValidLogin">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC_001_Guru99ValidLogin@6f46426d]" started-at="2022-05-30T22:19:52 EDT" name="beforeClass" finished-at="2022-05-30T22:19:53 EDT" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="GURU_TC_001_ValidLogin()[pri:0, instance:testCases.TC_001_Guru99ValidLogin@6f46426d]" started-at="2022-05-30T22:19:53 EDT" name="GURU_TC_001_ValidLogin" finished-at="2022-05-30T22:19:56 EDT" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GURU_TC_001_ValidLogin -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC_001_Guru99ValidLogin@6f46426d]" started-at="2022-05-30T22:19:56 EDT" name="afterClass" finished-at="2022-05-30T22:19:57 EDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.TC_001_Guru99ValidLogin -->
+    </test> <!-- TC_001_Guru99ValidLogin -->
+    <test started-at="2022-05-30T22:19:57 EDT" name="TC_002_Guru99InvalidLogin" finished-at="2022-05-30T22:20:03 EDT" duration-ms="6472">
+      <class name="testCases.TC_002_Guru99InvalidLogin">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC_002_Guru99InvalidLogin@741a8937]" started-at="2022-05-30T22:19:57 EDT" name="beforeClass" finished-at="2022-05-30T22:19:58 EDT" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="GURU_TC_002_InValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Guru99InvalidLogin@741a8937]" started-at="2022-05-30T22:19:58 EDT" name="GURU_TC_002_InValidLogin" data-provider="dp" finished-at="2022-05-30T22:20:00 EDT" duration-ms="2512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mgr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GURU_TC_002_InValidLogin -->
+        <test-method signature="GURU_TC_002_InValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Guru99InvalidLogin@741a8937]" started-at="2022-05-30T22:20:00 EDT" name="GURU_TC_002_InValidLogin" data-provider="dp" finished-at="2022-05-30T22:20:00 EDT" duration-ms="15" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=99.0.4844.84): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-38L647O8', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\HPUSER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a755e451785858c4ad1fece8d994b0dd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=99.0.4844.84): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-38L647O8', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\HPUSER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a755e451785858c4ad1fece8d994b0dd
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at testCases.TC_002_Guru99InvalidLogin.GURU_TC_002_InValidLogin(TC_002_Guru99InvalidLogin.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GURU_TC_002_InValidLogin -->
+        <test-method signature="GURU_TC_002_InValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Guru99InvalidLogin@741a8937]" started-at="2022-05-30T22:20:00 EDT" name="GURU_TC_002_InValidLogin" data-provider="dp" finished-at="2022-05-30T22:20:03 EDT" duration-ms="2620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mgr!23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GURU_TC_002_InValidLogin -->
+        <test-method signature="GURU_TC_002_InValidLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Guru99InvalidLogin@741a8937]" started-at="2022-05-30T22:20:03 EDT" name="GURU_TC_002_InValidLogin" data-provider="dp" finished-at="2022-05-30T22:20:03 EDT" duration-ms="11" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mgr!23]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=99.0.4844.84): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-38L647O8', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\HPUSER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a755e451785858c4ad1fece8d994b0dd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=99.0.4844.84): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-38L647O8', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\HPUSER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a755e451785858c4ad1fece8d994b0dd
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at testCases.TC_002_Guru99InvalidLogin.GURU_TC_002_InValidLogin(TC_002_Guru99InvalidLogin.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GURU_TC_002_InValidLogin -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC_002_Guru99InvalidLogin@741a8937]" started-at="2022-05-30T22:20:03 EDT" name="afterClass" finished-at="2022-05-30T22:20:03 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.TC_002_Guru99InvalidLogin -->
+    </test> <!-- TC_002_Guru99InvalidLogin -->
+    <test started-at="2022-05-30T22:20:03 EDT" name="TC_003_AddCustMobileNumber" finished-at="2022-05-30T22:20:05 EDT" duration-ms="2403">
+      <class name="testCases.TC_003_AddCustMobileNumber">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC_003_AddCustMobileNumber@e15b7e8]" started-at="2022-05-30T22:20:03 EDT" name="beforeClass" finished-at="2022-05-30T22:20:04 EDT" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="GURU_TC_003_IsMobileNumberValid()[pri:0, instance:testCases.TC_003_AddCustMobileNumber@e15b7e8]" started-at="2022-05-30T22:20:04 EDT" name="GURU_TC_003_IsMobileNumberValid" finished-at="2022-05-30T22:20:05 EDT" duration-ms="1277" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The mobile number is more than 10 digit expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The mobile number is more than 10 digit expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at testCases.TC_003_AddCustMobileNumber.GURU_TC_003_IsMobileNumberValid(TC_003_AddCustMobileNumber.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GURU_TC_003_IsMobileNumberValid -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC_003_AddCustMobileNumber@e15b7e8]" started-at="2022-05-30T22:20:05 EDT" name="afterClass" finished-at="2022-05-30T22:20:05 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.TC_003_AddCustMobileNumber -->
+    </test> <!-- TC_003_AddCustMobileNumber -->
+    <test started-at="2022-05-30T22:20:05 EDT" name="TC_004_AddNewCustomerEmail" finished-at="2022-05-30T22:20:08 EDT" duration-ms="2445">
+      <class name="testCases.TC_004_AddNewCustomerEmail">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC_004_AddNewCustomerEmail@c88a337]" started-at="2022-05-30T22:20:05 EDT" name="beforeClass" finished-at="2022-05-30T22:20:06 EDT" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="GURU_TC_004_AddNewCustomerEmail()[pri:0, instance:testCases.TC_004_AddNewCustomerEmail@c88a337]" started-at="2022-05-30T22:20:06 EDT" name="GURU_TC_004_AddNewCustomerEmail" finished-at="2022-05-30T22:20:08 EDT" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GURU_TC_004_AddNewCustomerEmail -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC_004_AddNewCustomerEmail@c88a337]" started-at="2022-05-30T22:20:08 EDT" name="afterClass" finished-at="2022-05-30T22:20:08 EDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.TC_004_AddNewCustomerEmail -->
+    </test> <!-- TC_004_AddNewCustomerEmail -->
+    <test started-at="2022-05-30T22:20:08 EDT" name="TC_005_AddCustPin" finished-at="2022-05-30T22:20:10 EDT" duration-ms="2493">
+      <class name="testCases.TC_005_AddCustPin">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC_005_AddCustPin@7c711375]" started-at="2022-05-30T22:20:08 EDT" name="beforeClass" finished-at="2022-05-30T22:20:09 EDT" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="GURU_TC_005_AddNewCustomerPin()[pri:0, instance:testCases.TC_005_AddCustPin@7c711375]" started-at="2022-05-30T22:20:09 EDT" name="GURU_TC_005_AddNewCustomerPin" finished-at="2022-05-30T22:20:10 EDT" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GURU_TC_005_AddNewCustomerPin -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC_005_AddCustPin@7c711375]" started-at="2022-05-30T22:20:10 EDT" name="afterClass" finished-at="2022-05-30T22:20:10 EDT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.TC_005_AddCustPin -->
+    </test> <!-- TC_005_AddCustPin -->
+    <test started-at="2022-05-30T22:20:10 EDT" name="TC_006_CustomerIdVerification" finished-at="2022-05-30T22:20:13 EDT" duration-ms="2859">
+      <class name="testCases.TC_006_CustomerIdVerification">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC_006_CustomerIdVerification@3ee37e5a]" started-at="2022-05-30T22:20:10 EDT" name="beforeClass" finished-at="2022-05-30T22:20:11 EDT" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Guru99_TC006_CustomerIdVerification(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_CustomerIdVerification@3ee37e5a]" started-at="2022-05-30T22:20:11 EDT" name="Guru99_TC006_CustomerIdVerification" data-provider="dp" finished-at="2022-05-30T22:20:13 EDT" duration-ms="1318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Characters are not allowed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Guru99_TC006_CustomerIdVerification -->
+        <test-method signature="Guru99_TC006_CustomerIdVerification(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_CustomerIdVerification@3ee37e5a]" started-at="2022-05-30T22:20:13 EDT" name="Guru99_TC006_CustomerIdVerification" data-provider="dp" finished-at="2022-05-30T22:20:13 EDT" duration-ms="572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Characters are not allowed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Guru99_TC006_CustomerIdVerification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC_006_CustomerIdVerification@3ee37e5a]" started-at="2022-05-30T22:20:13 EDT" name="afterClass" finished-at="2022-05-30T22:20:13 EDT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.TC_006_CustomerIdVerification -->
+    </test> <!-- TC_006_CustomerIdVerification -->
+    <test started-at="2022-05-30T22:20:13 EDT" name="TC_007_ValidatingInitialDeposit" finished-at="2022-05-30T22:20:16 EDT" duration-ms="2225">
+      <class name="testCases.TC_007_ValidatingInitialDeposit">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.TC_007_ValidatingInitialDeposit@4803b726]" started-at="2022-05-30T22:20:13 EDT" name="beforeClass" finished-at="2022-05-30T22:20:14 EDT" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_007_ValidatingInitialDeposit(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_007_ValidatingInitialDeposit@4803b726]" started-at="2022-05-30T22:20:14 EDT" name="TC_007_ValidatingInitialDeposit" data-provider="dp" finished-at="2022-05-30T22:20:15 EDT" duration-ms="1312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Initial Deposit must not be blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007_ValidatingInitialDeposit -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testCases.TC_007_ValidatingInitialDeposit@4803b726]" started-at="2022-05-30T22:20:15 EDT" name="afterClass" finished-at="2022-05-30T22:20:16 EDT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.TC_007_ValidatingInitialDeposit -->
+    </test> <!-- TC_007_ValidatingInitialDeposit -->
+  </suite> <!--  Guru99 Demo automation -->
+</testng-results>
