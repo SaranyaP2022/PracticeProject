@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM automation regression" parallel= "tests" thread-count="2" verbose = "2">
+<parameter name = "crossbrowser"   value = "chrome"/> 
+<test name="TC_001_ValidLogin" >
+<classes>
+<class name="orangeHrmTestcases.TC_001_ValidLogin"/>
+</classes>
+</test>
+
+<test name="TC_002_InvalidLogin" >
+<classes>
+<class name="orangeHrmTestcases.TC_002_InvalidLogin"/>
+</classes>
+</test>
+
+<test name="TC_003_LogOut" >
+<classes>
+<class name="orangeHrmTestcases.TC_003_LogOut"/>
+</classes>
+</test>
+
+<test name="TC_004_AddWorkShift" >
+<classes>
+<class name="orangeHrmTestcases.TC_004_AddWorkShift"/>
+</classes>
+</test>
+
+<test name="TC_005_DeleteWorkShift" >
+<classes>
+<class name="orangeHrmTestcases.TC_005_DeleteWorkShift"/>
+</classes>
+</test>
+
+<test name="TC_006_SearchInvalidUser" >
+<classes>
+<class name="orangeHrmTestcases.TC_006_SearchInvalidUser"/>
+</classes>
+</test>
+
+<test name="TC_007_Candidatecalendar" >
+<classes>
+<class name="orangeHrmTestcases.TC_007_Candidatecalendar"/>
+</classes>
+</test>
+
+<test name="TC_008_UploadCandidateResume" >
+<classes>
+<class name="orangeHrmTestcases.TC_008_UploadCandidateResume"/>
+</classes>
+</test>
+
+</suite>
