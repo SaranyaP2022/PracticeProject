@@ -17,28 +17,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class TC_005_DeleteWorkShift {
+public class TC_005_DeleteWorkShift extends BaseClass {
 	
-	WebDriver driver;
-	
-	 @BeforeClass
-	 @Parameters("crossbrowser")
-	 public void beforeClass(String crossbrowser) {
-		
-		// launch browser
-				if(crossbrowser.equals("chrome")) {
-					System.setProperty("webdriver.chrome.driver","./drivers\\chromedriver.exe");  
-					driver = new ChromeDriver();
-					}else if (crossbrowser.equals("firefox")) {
-						System.setProperty("webdriver.gecko.driver", "./drivers\\geckodriver.exe");
-						driver = new FirefoxDriver();
-					}
-		 		driver.manage().window().maximize();
-				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			 }
-	
- 
-	@Test
+  @Test
   public void OrangeHrm_TC_005_DeleteWorkShift() {
 		
 		LoginPageObject login = new LoginPageObject(driver);
@@ -67,9 +48,8 @@ public class TC_005_DeleteWorkShift {
   }
   
 
-  @AfterClass
-  public void afterClass() {
-	  driver.quit();
-  }
+	/*
+	 * @AfterClass public void afterClass() { driver.quit(); }
+	 */
 
 }

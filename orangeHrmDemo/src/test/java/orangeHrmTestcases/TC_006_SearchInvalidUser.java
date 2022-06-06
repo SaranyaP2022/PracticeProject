@@ -17,26 +17,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class TC_006_SearchInvalidUser {
-	WebDriver driver;
+public class TC_006_SearchInvalidUser extends BaseClass {
 	
-	 @BeforeClass
-	 @Parameters("crossbrowser")
-	 public void beforeClass(String crossbrowser) {
-		
-		// launch browser
-				if(crossbrowser.equals("chrome")) {
-					System.setProperty("webdriver.chrome.driver","./drivers\\chromedriver.exe");  
-					driver = new ChromeDriver();
-					}else if (crossbrowser.equals("firefox")) {
-						System.setProperty("webdriver.gecko.driver", "./drivers\\geckodriver.exe");
-						driver = new FirefoxDriver();
-					}
-				driver.manage().window().maximize();
-				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			 }
 	 
-		 
   @Test
   public void OrangeHrm_TC006_invalidUser() {
 	  LoginPageObject login = new LoginPageObject(driver); 
@@ -68,9 +51,8 @@ public class TC_006_SearchInvalidUser {
 	}
  
 
-  @AfterClass
-  public void afterClass() {
-	 driver.quit();
-  }
+	/*
+	 * @AfterClass public void afterClass() { driver.quit(); }
+	 */
 
 }

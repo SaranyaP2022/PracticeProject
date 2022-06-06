@@ -16,28 +16,9 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 
-public class TC_002_InvalidLogin {
+public class TC_002_InvalidLogin extends BaseClass{
 
-	WebDriver driver;
-
-	@BeforeClass
-	@Parameters("crossbrowser")
-	public void beforeClass(String crossbrowser) {
-			// launch browser
-		if (crossbrowser.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "./drivers\\chromedriver.exe");
-			driver = new ChromeDriver();
-		} else if (crossbrowser.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "./drivers\\geckodriver.exe");
-			driver = new FirefoxDriver();
-		}
-		
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		
-	}
-	
-		@BeforeMethod
+	@BeforeMethod
 		public void beforeMethod( ) {
 		
 		LoginPageObject login = new LoginPageObject(driver);
@@ -63,11 +44,10 @@ public class TC_002_InvalidLogin {
 	public void afterMethod() {
 	driver.get(driver.getCurrentUrl());	
 	}
-	@AfterClass
-	public void afterClass() {
-		driver.quit();
-	}
 
+	/*
+	 * @AfterClass public void afterClass() { driver.quit(); }
+	 */
 	@DataProvider
 	public Object[][] dp() {
 		return new Object[][] { 
