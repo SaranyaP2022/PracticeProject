@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="OrangeHRM automation regression" parallel= "tests" thread-count="2" verbose = "2">
+
+<listeners>
+<listener class-name = "orangeHrmTestcases.AnnotationTransformer">
+</listener>
+</listeners>
 <parameter name = "crossbrowser"   value = "chrome"/> 
+
 <test name="TC_001_ValidLogin" >
 <classes>
 <class name="orangeHrmTestcases.TC_001_ValidLogin"/>
@@ -12,7 +18,7 @@
 <classes>
 <class name="orangeHrmTestcases.TC_002_InvalidLogin"/>
 </classes>
-</test>
+</test> 
 
 <test name="TC_003_LogOut" >
 <classes>
