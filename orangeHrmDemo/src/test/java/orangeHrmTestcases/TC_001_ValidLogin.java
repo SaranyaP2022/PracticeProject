@@ -13,27 +13,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class TC_001_ValidLogin {
+public class TC_001_ValidLogin extends BaseClass {
 	
- WebDriver driver;	
- 
- @BeforeClass
- @Parameters("crossbrowser")
- public void beforeClass(String crossbrowser) {
-	
-	// launch browser
-			if(crossbrowser.equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver","./drivers\\chromedriver.exe");  
-				driver = new ChromeDriver();
-				}else if (crossbrowser.equals("firefox")) {
-					System.setProperty("webdriver.gecko.driver", "./drivers\\geckodriver.exe");
-					driver = new FirefoxDriver();
-				}
-			
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		 }
-
   @Test
   public void OrangeHrm_TC001_login()  {
 	  
@@ -48,11 +29,9 @@ public class TC_001_ValidLogin {
 			Assert.assertTrue(login.isLoginSuccess());
   }
  
-  @AfterClass
-  public void afterClass() {
-	// close the browser
-			driver.quit();
-		}
+	/*
+	 * @AfterClass public void afterClass() { // close the browser driver.quit(); }
+	 */
   }
 
 

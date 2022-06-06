@@ -17,27 +17,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class TC_008_UploadCandidateResume {
+public class TC_008_UploadCandidateResume extends BaseClass{
  
-	WebDriver driver;
 	
-	@BeforeClass
-	 @Parameters("crossbrowser")
-	 public void beforeClass(String crossbrowser) {
-		
-		// launch browser
-				if(crossbrowser.equals("chrome")) {
-					System.setProperty("webdriver.chrome.driver","./drivers\\chromedriver.exe");  
-					driver = new ChromeDriver();
-					}else if (crossbrowser.equals("firefox")) {
-						System.setProperty("webdriver.gecko.driver", "./drivers\\geckodriver.exe");
-						driver = new FirefoxDriver();
-					}
-		
-				driver.manage().window().maximize();
-				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			 } 
-  
   @Test
   public void TC_009_candidateResumeUpload() {
 	  LoginPageObject login = new LoginPageObject(driver); 
@@ -66,9 +48,7 @@ public class TC_008_UploadCandidateResume {
 	 
 	 }
 
-  @AfterClass
-  public void afterClass() {
-	  driver.close();
-  }
-
+		/*
+		 * @AfterClass public void afterClass() { driver.close(); }
+		 */
 }
