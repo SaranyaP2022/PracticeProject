@@ -2,6 +2,8 @@ package orangeHrmTestcases;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import orangeHrmPageObjects.LoginPageObject;
 
 import org.testng.annotations.BeforeClass;
@@ -16,7 +18,10 @@ import org.testng.annotations.AfterClass;
 public class TC_001_ValidLogin extends BaseClass {
 	
   @Test
-  public void OrangeHrm_TC001_login()  {
+  @Parameters("crossbrowser")
+  public void OrangeHrm_TC001_login(String crossbrowser)  {
+	  
+	  testcase = extentreport.createTest("TC_001_ValidLogin").assignDevice(crossbrowser).assignCategory("functional");
 	  
 	  LoginPageObject login = new LoginPageObject(driver);
 	  
@@ -27,11 +32,11 @@ public class TC_001_ValidLogin extends BaseClass {
 			
 	//verifying login is successful		
 			Assert.assertTrue(login.isLoginSuccess());
+			testcase.log(Status.PASS, "The login was successful");
   }
  
-	/*
-	 * @AfterClass public void afterClass() { // close the browser driver.quit(); }
-	 */
+  
+	
   }
 
 

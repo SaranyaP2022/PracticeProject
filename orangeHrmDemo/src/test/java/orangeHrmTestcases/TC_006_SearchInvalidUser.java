@@ -21,7 +21,11 @@ public class TC_006_SearchInvalidUser extends BaseClass {
 	
 	 
   @Test
-  public void OrangeHrm_TC006_invalidUser() {
+  @Parameters("crossbrowser")
+  public void OrangeHrm_TC006_invalidUser(String crossbrowser) {
+	 
+	  testcase = extentreport.createTest("TC_006_invalidUser").assignDevice(crossbrowser).assignCategory("functional");
+	  
 	  LoginPageObject login = new LoginPageObject(driver); 
 	  DashBoardPageObject obj = new DashBoardPageObject(driver); 
 	  SystemUsersPageObject user = new SystemUsersPageObject(driver);

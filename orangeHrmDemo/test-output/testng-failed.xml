@@ -9,11 +9,14 @@
     <classes>
       <class name="orangeHrmTestcases.TC_002_InvalidLogin">
         <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="OrangeHrm_TC002_InValidlogin" invocation-numbers="2 2 2 3 3 3"/>
           <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="launchBrowser"/>
+          <include name="OrangeHrm_TC002_InValidlogin" invocation-numbers="2 2 2 3 3 3"/>
+          <include name="getResult"/>
         </methods>
       </class> <!-- orangeHrmTestcases.TC_002_InvalidLogin -->
     </classes>

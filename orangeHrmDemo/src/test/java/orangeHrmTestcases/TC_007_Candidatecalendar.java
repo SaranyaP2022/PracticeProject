@@ -19,8 +19,10 @@ import org.testng.annotations.AfterClass;
 public class TC_007_Candidatecalendar extends BaseClass{
 	
  @Test
-  public void TC_008_candidateCalendar() {
+ @Parameters("crossbrowser")
+  public void TC_008_candidateCalendar(String crossbrowser) {
 		
+	 testcase = extentreport.createTest("TC_007_Candidatecalendar").assignDevice(crossbrowser).assignCategory("functional");
 		LoginPageObject login = new LoginPageObject(driver); 
 		  DashBoardPageObject obj = new DashBoardPageObject(driver); 
 		  CandidatesPageObject candidate = new CandidatesPageObject(driver);

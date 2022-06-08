@@ -2,6 +2,8 @@ package orangeHrmTestcases;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import orangeHrmPageObjects.AddWorkShiftPageObject;
 import orangeHrmPageObjects.DashBoardPageObject;
 import orangeHrmPageObjects.LoginPageObject;
@@ -20,8 +22,10 @@ import org.testng.annotations.AfterClass;
 public class TC_004_AddWorkShift extends BaseClass{
 	
   @Test
-  public void OrangeHrm_TC004_AddWorkShift()  {
+  @Parameters("crossbrowser")
+  public void OrangeHrm_TC004_AddWorkShift(String crossbrowser)  {
 	  
+	  testcase = extentreport.createTest("TC_004_AddWorkShift").assignDevice(crossbrowser).assignCategory("functional");
 	  LoginPageObject login = new LoginPageObject(driver);
 	  DashBoardPageObject obj = new DashBoardPageObject(driver);
 	  WorkShiftsPageObject object = new WorkShiftsPageObject(driver);
@@ -55,7 +59,7 @@ public class TC_004_AddWorkShift extends BaseClass{
 		 String actualmsg = object.isSuccesfullyAdded(); 
 		 String expectedmsg = "Successfully Saved"; 
 		 Assert.assertEquals(actualmsg, expectedmsg);
-		 
+		 testcase.log(Status.PASS, "Workshift was added successfully");
 	 
   }
  

@@ -2,6 +2,8 @@ package orangeHrmTestcases;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import orangeHrmPageObjects.LoginPageObject;
 
 import org.testng.annotations.BeforeClass;
@@ -19,7 +21,10 @@ import org.testng.annotations.AfterMethod;
 public class TC_002_InvalidLogin extends BaseClass{
 
 	@BeforeMethod
-		public void beforeMethod( ) {
+	@Parameters("crossbrowser")
+		public void beforeMethod(String crossbrowser ) {
+		
+		testcase = extentreport.createTest("TC_002_InValidLogin").assignDevice(crossbrowser).assignCategory("functional");
 		
 		LoginPageObject login = new LoginPageObject(driver);
 
@@ -37,7 +42,7 @@ public class TC_002_InvalidLogin extends BaseClass{
 		
 		// verify the login fails
 		Assert.assertEquals(login.actualError(), expectedError);
-		
+		testcase.log(Status.PASS, "The login was unsuccessful for invalid credentials");
 }
 
 	@AfterMethod

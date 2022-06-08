@@ -2,12 +2,16 @@
 <testng-results retried="4" ignored="0" total="15" passed="9" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-05T18:35:33 EDT" name="OrangeHRM automation regression" finished-at="2022-06-05T18:35:57 EDT" duration-ms="23793">
+  <suite started-at="2022-06-08T14:42:40 EDT" name="OrangeHRM automation regression" finished-at="2022-06-08T14:43:12 EDT" duration-ms="31857">
     <groups>
     </groups>
-    <test started-at="2022-06-05T18:35:33 EDT" name="TC_001_ValidLogin" finished-at="2022-06-05T18:35:37 EDT" duration-ms="3677">
+    <test started-at="2022-06-08T14:42:40 EDT" name="TC_001_ValidLogin" finished-at="2022-06-08T14:42:46 EDT" duration-ms="5917">
       <class name="orangeHrmTestcases.TC_001_ValidLogin">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@5403f35f]" started-at="2022-06-05T18:35:33 EDT" name="beforeClass" finished-at="2022-06-05T18:35:35 EDT" duration-ms="1206" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@673fdbce]" started-at="2022-06-08T14:42:40 EDT" name="beforeTest" finished-at="2022-06-08T14:42:40 EDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@673fdbce]" started-at="2022-06-08T14:42:40 EDT" name="launchBrowser" finished-at="2022-06-08T14:42:42 EDT" duration-ms="2294" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -17,20 +21,46 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="OrangeHrm_TC001_login()[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@5403f35f]" started-at="2022-06-05T18:35:35 EDT" name="OrangeHrm_TC001_login" finished-at="2022-06-05T18:35:37 EDT" duration-ms="2318" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="OrangeHrm_TC001_login(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@673fdbce]" started-at="2022-06-08T14:42:42 EDT" name="OrangeHrm_TC001_login" finished-at="2022-06-08T14:42:45 EDT" duration-ms="2558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeHrm_TC001_login -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@5403f35f]" started-at="2022-06-05T18:35:37 EDT" name="afterClass" finished-at="2022-06-05T18:35:37 EDT" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@673fdbce]" started-at="2022-06-08T14:42:45 EDT" name="getResult" finished-at="2022-06-08T14:42:45 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC001_login status=SUCCESS method=TC_001_ValidLogin.OrangeHrm_TC001_login(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@673fdbce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@673fdbce]" started-at="2022-06-08T14:42:45 EDT" name="afterClass" finished-at="2022-06-08T14:42:46 EDT" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:orangeHrmTestcases.TC_001_ValidLogin@673fdbce]" started-at="2022-06-08T14:42:46 EDT" name="afterTest" finished-at="2022-06-08T14:42:46 EDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- orangeHrmTestcases.TC_001_ValidLogin -->
     </test> <!-- TC_001_ValidLogin -->
-    <test started-at="2022-06-05T18:35:37 EDT" name="TC_003_LogOut" finished-at="2022-06-05T18:35:43 EDT" duration-ms="5823">
+    <test started-at="2022-06-08T14:42:46 EDT" name="TC_003_LogOut" finished-at="2022-06-08T14:42:53 EDT" duration-ms="6741">
       <class name="orangeHrmTestcases.TC_003_LogOut">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@57cf54e1]" started-at="2022-06-05T18:35:37 EDT" name="beforeClass" finished-at="2022-06-05T18:35:38 EDT" duration-ms="912" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@14dd7b39]" started-at="2022-06-08T14:42:46 EDT" name="beforeTest" finished-at="2022-06-08T14:42:46 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@14dd7b39]" started-at="2022-06-08T14:42:46 EDT" name="launchBrowser" finished-at="2022-06-08T14:42:47 EDT" duration-ms="1060" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,20 +70,46 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="OrangeHrm_TC003_logOut()[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@57cf54e1]" started-at="2022-06-05T18:35:38 EDT" name="OrangeHrm_TC003_logOut" finished-at="2022-06-05T18:35:43 EDT" duration-ms="4775" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="OrangeHrm_TC003_logOut(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@14dd7b39]" started-at="2022-06-08T14:42:47 EDT" name="OrangeHrm_TC003_logOut" finished-at="2022-06-08T14:42:52 EDT" duration-ms="5193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeHrm_TC003_logOut -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@57cf54e1]" started-at="2022-06-05T18:35:43 EDT" name="afterClass" finished-at="2022-06-05T18:35:43 EDT" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@14dd7b39]" started-at="2022-06-08T14:42:52 EDT" name="getResult" finished-at="2022-06-08T14:42:52 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC003_logOut status=SUCCESS method=TC_003_LogOut.OrangeHrm_TC003_logOut(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@14dd7b39]" started-at="2022-06-08T14:42:52 EDT" name="afterClass" finished-at="2022-06-08T14:42:52 EDT" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:orangeHrmTestcases.TC_003_LogOut@14dd7b39]" started-at="2022-06-08T14:42:52 EDT" name="afterTest" finished-at="2022-06-08T14:42:53 EDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- orangeHrmTestcases.TC_003_LogOut -->
     </test> <!-- TC_003_LogOut -->
-    <test started-at="2022-06-05T18:35:33 EDT" name="TC_002_InvalidLogin" finished-at="2022-06-05T18:35:44 EDT" duration-ms="10383">
+    <test started-at="2022-06-08T14:42:40 EDT" name="TC_002_InvalidLogin" finished-at="2022-06-08T14:42:57 EDT" duration-ms="17273">
       <class name="orangeHrmTestcases.TC_002_InvalidLogin">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:33 EDT" name="beforeClass" finished-at="2022-06-05T18:35:35 EDT" duration-ms="1206" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:40 EDT" name="beforeTest" finished-at="2022-06-08T14:42:40 EDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:40 EDT" name="launchBrowser" finished-at="2022-06-08T14:42:42 EDT" duration-ms="2171" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,12 +119,19 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:35 EDT" name="beforeMethod" finished-at="2022-06-05T18:35:35 EDT" duration-ms="767" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:42 EDT" name="beforeMethod" finished-at="2022-06-08T14:42:43 EDT" duration-ms="642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:35 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-05T18:35:36 EDT" duration-ms="852" status="PASS">
+        <test-method signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:43 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-08T14:42:44 EDT" duration-ms="1250" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,15 +152,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:36 EDT" name="afterMethod" finished-at="2022-06-05T18:35:36 EDT" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:44 EDT" name="afterMethod" finished-at="2022-06-08T14:42:44 EDT" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:36 EDT" name="beforeMethod" finished-at="2022-06-05T18:35:36 EDT" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:44 EDT" name="getResult" finished-at="2022-06-08T14:42:44 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC002_InValidlogin status=SUCCESS method=TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:44 EDT" name="beforeMethod" finished-at="2022-06-08T14:42:45 EDT" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:36 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-05T18:35:37 EDT" duration-ms="738" status="PASS">
+        <test-method signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:45 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-08T14:42:46 EDT" duration-ms="1007" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,427 +199,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:37 EDT" name="afterMethod" finished-at="2022-06-05T18:35:37 EDT" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:46 EDT" name="afterMethod" finished-at="2022-06-08T14:42:46 EDT" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:37 EDT" name="beforeMethod" finished-at="2022-06-05T18:35:38 EDT" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:38 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-05T18:35:38 EDT" duration-ms="813" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:46 EDT" name="getResult" finished-at="2022-06-08T14:42:46 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Username cannot be empty]]>
+                <![CDATA[[TestResult name=OrangeHrm_TC002_InValidlogin status=SUCCESS method=TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Username cannot be empty] but found [Invalid credentials]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Username cannot be empty] but found [Invalid credentials]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:38 EDT" name="afterMethod" finished-at="2022-06-05T18:35:39 EDT" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:39 EDT" name="beforeMethod" finished-at="2022-06-05T18:35:39 EDT" duration-ms="137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:39 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-05T18:35:39 EDT" duration-ms="745" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Username cannot be empty]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Username cannot be empty] but found [Invalid credentials]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Username cannot be empty] but found [Invalid credentials]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:39 EDT" name="afterMethod" finished-at="2022-06-05T18:35:40 EDT" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:40 EDT" name="beforeMethod" finished-at="2022-06-05T18:35:40 EDT" duration-ms="120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:40 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-05T18:35:40 EDT" duration-ms="770" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Username cannot be empty]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Username cannot be empty] but found [Invalid credentials]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Username cannot be empty] but found [Invalid credentials]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:40 EDT" name="afterMethod" finished-at="2022-06-05T18:35:41 EDT" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:41 EDT" name="beforeMethod" finished-at="2022-06-05T18:35:41 EDT" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:41 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-05T18:35:41 EDT" duration-ms="767" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Password cannot be empty]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Password cannot be empty] but found [Invalid credentials]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Password cannot be empty] but found [Invalid credentials]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:41 EDT" name="afterMethod" finished-at="2022-06-05T18:35:42 EDT" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:42 EDT" name="beforeMethod" finished-at="2022-06-05T18:35:42 EDT" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:42 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-05T18:35:42 EDT" duration-ms="775" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Password cannot be empty]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Password cannot be empty] but found [Invalid credentials]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Password cannot be empty] but found [Invalid credentials]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:42 EDT" name="afterMethod" finished-at="2022-06-05T18:35:43 EDT" duration-ms="143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:43 EDT" name="beforeMethod" finished-at="2022-06-05T18:35:43 EDT" duration-ms="142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:43 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-05T18:35:44 EDT" duration-ms="825" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Password cannot be empty]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Password cannot be empty] but found [Invalid credentials]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Password cannot be empty] but found [Invalid credentials]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:44 EDT" name="afterMethod" finished-at="2022-06-05T18:35:44 EDT" duration-ms="156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@5d0a1059]" started-at="2022-06-05T18:35:44 EDT" name="afterClass" finished-at="2022-06-05T18:35:44 EDT" duration-ms="108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- orangeHrmTestcases.TC_002_InvalidLogin -->
-    </test> <!-- TC_002_InvalidLogin -->
-    <test started-at="2022-06-05T18:35:43 EDT" name="TC_004_AddWorkShift" finished-at="2022-06-05T18:35:48 EDT" duration-ms="5221">
-      <class name="orangeHrmTestcases.TC_004_AddWorkShift">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@2ea41516]" started-at="2022-06-05T18:35:43 EDT" name="beforeClass" finished-at="2022-06-05T18:35:44 EDT" duration-ms="825" status="PASS">
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:46 EDT" name="beforeMethod" finished-at="2022-06-08T14:42:47 EDT" duration-ms="276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -548,20 +224,578 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="OrangeHrm_TC004_AddWorkShift()[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@2ea41516]" started-at="2022-06-05T18:35:44 EDT" name="OrangeHrm_TC004_AddWorkShift" finished-at="2022-06-05T18:35:48 EDT" duration-ms="4265" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:47 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-08T14:42:47 EDT" duration-ms="923" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Username cannot be empty] but found [Invalid credentials]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Username cannot be empty] but found [Invalid credentials]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:47 EDT" name="afterMethod" finished-at="2022-06-08T14:42:48 EDT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:48 EDT" name="getResult" finished-at="2022-06-08T14:42:48 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC002_InValidlogin status=SKIP method=TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:48 EDT" name="beforeMethod" finished-at="2022-06-08T14:42:48 EDT" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:48 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-08T14:42:49 EDT" duration-ms="1109" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Username cannot be empty] but found [Invalid credentials]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Username cannot be empty] but found [Invalid credentials]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:49 EDT" name="afterMethod" finished-at="2022-06-08T14:42:49 EDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:49 EDT" name="getResult" finished-at="2022-06-08T14:42:49 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC002_InValidlogin status=SKIP method=TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:49 EDT" name="beforeMethod" finished-at="2022-06-08T14:42:50 EDT" duration-ms="276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:50 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-08T14:42:51 EDT" duration-ms="1086" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Username cannot be empty] but found [Invalid credentials]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Username cannot be empty] but found [Invalid credentials]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:51 EDT" name="afterMethod" finished-at="2022-06-08T14:42:51 EDT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:51 EDT" name="getResult" finished-at="2022-06-08T14:42:51 EDT" duration-ms="399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC002_InValidlogin status=FAILURE method=TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:51 EDT" name="beforeMethod" finished-at="2022-06-08T14:42:52 EDT" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:52 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-08T14:42:53 EDT" duration-ms="1138" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password cannot be empty] but found [Invalid credentials]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password cannot be empty] but found [Invalid credentials]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:53 EDT" name="afterMethod" finished-at="2022-06-08T14:42:53 EDT" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:53 EDT" name="getResult" finished-at="2022-06-08T14:42:53 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC002_InValidlogin status=SKIP method=TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:53 EDT" name="beforeMethod" finished-at="2022-06-08T14:42:53 EDT" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:53 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-08T14:42:54 EDT" duration-ms="984" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password cannot be empty] but found [Invalid credentials]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password cannot be empty] but found [Invalid credentials]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:54 EDT" name="afterMethod" finished-at="2022-06-08T14:42:55 EDT" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:55 EDT" name="getResult" finished-at="2022-06-08T14:42:55 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC002_InValidlogin status=SKIP method=TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:55 EDT" name="beforeMethod" finished-at="2022-06-08T14:42:55 EDT" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:55 EDT" name="OrangeHrm_TC002_InValidlogin" data-provider="dp" finished-at="2022-06-08T14:42:56 EDT" duration-ms="1068" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password cannot be empty] but found [Invalid credentials]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password cannot be empty] but found [Invalid credentials]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at orangeHrmTestcases.TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(TC_002_InvalidLogin.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrm_TC002_InValidlogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:56 EDT" name="afterMethod" finished-at="2022-06-08T14:42:56 EDT" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:56 EDT" name="getResult" finished-at="2022-06-08T14:42:57 EDT" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC002_InValidlogin status=FAILURE method=TC_002_InvalidLogin.OrangeHrm_TC002_InValidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:57 EDT" name="afterClass" finished-at="2022-06-08T14:42:57 EDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:orangeHrmTestcases.TC_002_InvalidLogin@57db2b13]" started-at="2022-06-08T14:42:57 EDT" name="afterTest" finished-at="2022-06-08T14:42:57 EDT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- orangeHrmTestcases.TC_002_InvalidLogin -->
+    </test> <!-- TC_002_InvalidLogin -->
+    <test started-at="2022-06-08T14:42:53 EDT" name="TC_004_AddWorkShift" finished-at="2022-06-08T14:43:00 EDT" duration-ms="7231">
+      <class name="orangeHrmTestcases.TC_004_AddWorkShift">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@f68f0dc]" started-at="2022-06-08T14:42:53 EDT" name="beforeTest" finished-at="2022-06-08T14:42:53 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@f68f0dc]" started-at="2022-06-08T14:42:53 EDT" name="launchBrowser" finished-at="2022-06-08T14:42:54 EDT" duration-ms="977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="OrangeHrm_TC004_AddWorkShift(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@f68f0dc]" started-at="2022-06-08T14:42:54 EDT" name="OrangeHrm_TC004_AddWorkShift" finished-at="2022-06-08T14:42:59 EDT" duration-ms="5828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeHrm_TC004_AddWorkShift -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@2ea41516]" started-at="2022-06-05T18:35:48 EDT" name="afterClass" finished-at="2022-06-05T18:35:48 EDT" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@f68f0dc]" started-at="2022-06-08T14:42:59 EDT" name="getResult" finished-at="2022-06-08T14:42:59 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC004_AddWorkShift status=SUCCESS method=TC_004_AddWorkShift.OrangeHrm_TC004_AddWorkShift(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@f68f0dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@f68f0dc]" started-at="2022-06-08T14:42:59 EDT" name="afterClass" finished-at="2022-06-08T14:43:00 EDT" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:orangeHrmTestcases.TC_004_AddWorkShift@f68f0dc]" started-at="2022-06-08T14:43:00 EDT" name="afterTest" finished-at="2022-06-08T14:43:00 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- orangeHrmTestcases.TC_004_AddWorkShift -->
     </test> <!-- TC_004_AddWorkShift -->
-    <test started-at="2022-06-05T18:35:44 EDT" name="TC_005_DeleteWorkShift" finished-at="2022-06-05T18:35:49 EDT" duration-ms="5040">
+    <test started-at="2022-06-08T14:42:57 EDT" name="TC_005_DeleteWorkShift" finished-at="2022-06-08T14:43:04 EDT" duration-ms="6358">
       <class name="orangeHrmTestcases.TC_005_DeleteWorkShift">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@ffaa6af]" started-at="2022-06-05T18:35:44 EDT" name="beforeClass" finished-at="2022-06-05T18:35:45 EDT" duration-ms="806" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@1b66c0fb]" started-at="2022-06-08T14:42:57 EDT" name="beforeTest" finished-at="2022-06-08T14:42:57 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@1b66c0fb]" started-at="2022-06-08T14:42:57 EDT" name="launchBrowser" finished-at="2022-06-08T14:42:58 EDT" duration-ms="1001" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -571,43 +805,46 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="OrangeHrm_TC_005_DeleteWorkShift()[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@ffaa6af]" started-at="2022-06-05T18:35:45 EDT" name="OrangeHrm_TC_005_DeleteWorkShift" finished-at="2022-06-05T18:35:49 EDT" duration-ms="4104" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="OrangeHrm_TC_005_DeleteWorkShift(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@1b66c0fb]" started-at="2022-06-08T14:42:58 EDT" name="OrangeHrm_TC_005_DeleteWorkShift" finished-at="2022-06-08T14:43:03 EDT" duration-ms="4971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeHrm_TC_005_DeleteWorkShift -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@ffaa6af]" started-at="2022-06-05T18:35:49 EDT" name="afterClass" finished-at="2022-06-05T18:35:49 EDT" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@1b66c0fb]" started-at="2022-06-08T14:43:03 EDT" name="getResult" finished-at="2022-06-08T14:43:03 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC_005_DeleteWorkShift status=SUCCESS method=TC_005_DeleteWorkShift.OrangeHrm_TC_005_DeleteWorkShift(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@1b66c0fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@1b66c0fb]" started-at="2022-06-08T14:43:03 EDT" name="afterClass" finished-at="2022-06-08T14:43:03 EDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:orangeHrmTestcases.TC_005_DeleteWorkShift@1b66c0fb]" started-at="2022-06-08T14:43:03 EDT" name="afterTest" finished-at="2022-06-08T14:43:04 EDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- orangeHrmTestcases.TC_005_DeleteWorkShift -->
     </test> <!-- TC_005_DeleteWorkShift -->
-    <test started-at="2022-06-05T18:35:49 EDT" name="TC_007_Candidatecalendar" finished-at="2022-06-05T18:35:53 EDT" duration-ms="3887">
-      <class name="orangeHrmTestcases.TC_007_Candidatecalendar">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@21282ed8]" started-at="2022-06-05T18:35:49 EDT" name="beforeClass" finished-at="2022-06-05T18:35:50 EDT" duration-ms="854" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="TC_008_candidateCalendar()[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@21282ed8]" started-at="2022-06-05T18:35:50 EDT" name="TC_008_candidateCalendar" finished-at="2022-06-05T18:35:53 EDT" duration-ms="2970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_008_candidateCalendar -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@21282ed8]" started-at="2022-06-05T18:35:53 EDT" name="afterClass" finished-at="2022-06-05T18:35:53 EDT" duration-ms="61" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- orangeHrmTestcases.TC_007_Candidatecalendar -->
-    </test> <!-- TC_007_Candidatecalendar -->
-    <test started-at="2022-06-05T18:35:48 EDT" name="TC_006_SearchInvalidUser" finished-at="2022-06-05T18:35:53 EDT" duration-ms="5188">
+    <test started-at="2022-06-08T14:43:00 EDT" name="TC_006_SearchInvalidUser" finished-at="2022-06-08T14:43:06 EDT" duration-ms="6555">
       <class name="orangeHrmTestcases.TC_006_SearchInvalidUser">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@31fa1761]" started-at="2022-06-05T18:35:48 EDT" name="beforeClass" finished-at="2022-06-05T18:35:49 EDT" duration-ms="894" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@465232e9]" started-at="2022-06-08T14:43:00 EDT" name="beforeTest" finished-at="2022-06-08T14:43:00 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@465232e9]" started-at="2022-06-08T14:43:00 EDT" name="launchBrowser" finished-at="2022-06-08T14:43:01 EDT" duration-ms="938" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -617,20 +854,46 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="OrangeHrm_TC006_invalidUser()[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@31fa1761]" started-at="2022-06-05T18:35:49 EDT" name="OrangeHrm_TC006_invalidUser" finished-at="2022-06-05T18:35:53 EDT" duration-ms="4158" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="OrangeHrm_TC006_invalidUser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@465232e9]" started-at="2022-06-08T14:43:01 EDT" name="OrangeHrm_TC006_invalidUser" finished-at="2022-06-08T14:43:06 EDT" duration-ms="5178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrangeHrm_TC006_invalidUser -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@31fa1761]" started-at="2022-06-05T18:35:53 EDT" name="afterClass" finished-at="2022-06-05T18:35:53 EDT" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@465232e9]" started-at="2022-06-08T14:43:06 EDT" name="getResult" finished-at="2022-06-08T14:43:06 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrm_TC006_invalidUser status=SUCCESS method=TC_006_SearchInvalidUser.OrangeHrm_TC006_invalidUser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@465232e9]" started-at="2022-06-08T14:43:06 EDT" name="afterClass" finished-at="2022-06-08T14:43:06 EDT" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:orangeHrmTestcases.TC_006_SearchInvalidUser@465232e9]" started-at="2022-06-08T14:43:06 EDT" name="afterTest" finished-at="2022-06-08T14:43:06 EDT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- orangeHrmTestcases.TC_006_SearchInvalidUser -->
     </test> <!-- TC_006_SearchInvalidUser -->
-    <test started-at="2022-06-05T18:35:53 EDT" name="TC_008_UploadCandidateResume" finished-at="2022-06-05T18:35:57 EDT" duration-ms="4452">
-      <class name="orangeHrmTestcases.TC_008_UploadCandidateResume">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@47e2e487]" started-at="2022-06-05T18:35:53 EDT" name="beforeClass" finished-at="2022-06-05T18:35:54 EDT" duration-ms="827" status="PASS">
+    <test started-at="2022-06-08T14:43:04 EDT" name="TC_007_Candidatecalendar" finished-at="2022-06-08T14:43:09 EDT" duration-ms="5104">
+      <class name="orangeHrmTestcases.TC_007_Candidatecalendar">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@1c9b0314]" started-at="2022-06-08T14:43:04 EDT" name="beforeTest" finished-at="2022-06-08T14:43:04 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@1c9b0314]" started-at="2022-06-08T14:43:04 EDT" name="launchBrowser" finished-at="2022-06-08T14:43:05 EDT" duration-ms="1070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -640,15 +903,86 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="TC_009_candidateResumeUpload()[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@47e2e487]" started-at="2022-06-05T18:35:54 EDT" name="TC_009_candidateResumeUpload" finished-at="2022-06-05T18:35:57 EDT" duration-ms="3573" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC_008_candidateCalendar(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@1c9b0314]" started-at="2022-06-08T14:43:05 EDT" name="TC_008_candidateCalendar" finished-at="2022-06-08T14:43:08 EDT" duration-ms="3649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_009_candidateResumeUpload -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@47e2e487]" started-at="2022-06-05T18:35:57 EDT" name="afterClass" finished-at="2022-06-05T18:35:57 EDT" duration-ms="50" status="PASS">
+        </test-method> <!-- TC_008_candidateCalendar -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@1c9b0314]" started-at="2022-06-08T14:43:08 EDT" name="afterClass" finished-at="2022-06-08T14:43:09 EDT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@1c9b0314]" started-at="2022-06-08T14:43:08 EDT" name="getResult" finished-at="2022-06-08T14:43:08 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_008_candidateCalendar status=SUCCESS method=TC_007_Candidatecalendar.TC_008_candidateCalendar(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@1c9b0314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:orangeHrmTestcases.TC_007_Candidatecalendar@1c9b0314]" started-at="2022-06-08T14:43:09 EDT" name="afterTest" finished-at="2022-06-08T14:43:09 EDT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- orangeHrmTestcases.TC_007_Candidatecalendar -->
+    </test> <!-- TC_007_Candidatecalendar -->
+    <test started-at="2022-06-08T14:43:06 EDT" name="TC_008_UploadCandidateResume" finished-at="2022-06-08T14:43:12 EDT" duration-ms="5359">
+      <class name="orangeHrmTestcases.TC_008_UploadCandidateResume">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@3b35a229]" started-at="2022-06-08T14:43:06 EDT" name="beforeTest" finished-at="2022-06-08T14:43:06 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@3b35a229]" started-at="2022-06-08T14:43:06 EDT" name="launchBrowser" finished-at="2022-06-08T14:43:07 EDT" duration-ms="888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC_009_candidateResumeUpload(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@3b35a229]" started-at="2022-06-08T14:43:07 EDT" name="TC_009_candidateResumeUpload" finished-at="2022-06-08T14:43:12 EDT" duration-ms="4175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_009_candidateResumeUpload -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@3b35a229]" started-at="2022-06-08T14:43:12 EDT" name="afterClass" finished-at="2022-06-08T14:43:12 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@3b35a229]" started-at="2022-06-08T14:43:12 EDT" name="getResult" finished-at="2022-06-08T14:43:12 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_009_candidateResumeUpload status=SUCCESS method=TC_008_UploadCandidateResume.TC_009_candidateResumeUpload(java.lang.String)[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@3b35a229] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:orangeHrmTestcases.TC_008_UploadCandidateResume@3b35a229]" started-at="2022-06-08T14:43:12 EDT" name="afterTest" finished-at="2022-06-08T14:43:12 EDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- orangeHrmTestcases.TC_008_UploadCandidateResume -->
     </test> <!-- TC_008_UploadCandidateResume -->
   </suite> <!-- OrangeHRM automation regression -->

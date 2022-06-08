@@ -2,6 +2,9 @@ package orangeHrmTestcases;
 
 
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.Status;
+
 import orangeHrmPageObjects.AddCandidatePageObject;
 import orangeHrmPageObjects.CandidatesPageObject;
 import orangeHrmPageObjects.DashBoardPageObject;
@@ -21,7 +24,10 @@ public class TC_008_UploadCandidateResume extends BaseClass{
  
 	
   @Test
-  public void TC_009_candidateResumeUpload() {
+  @Parameters("crossbrowser")
+  public void TC_009_candidateResumeUpload(String crossbrowser) {
+	  
+	  testcase = extentreport.createTest("TC_008_UploadCandidateResume").assignDevice(crossbrowser).assignCategory("functional");
 	  LoginPageObject login = new LoginPageObject(driver); 
 	  DashBoardPageObject obj = new DashBoardPageObject(driver); 
 	  CandidatesPageObject candidate = new CandidatesPageObject(driver);
@@ -46,6 +52,7 @@ public class TC_008_UploadCandidateResume extends BaseClass{
 	 
 	 addCandidate.uploadCandidateResume("C:\\Users\\HP User\\Desktop\\SampleResume.pdf"); 
 	 
+	 testcase.log(Status.PASS, "The candidate resume was uploaded successfully");
 	 }
 
 		/*
