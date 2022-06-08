@@ -2,6 +2,8 @@ package orangeHrmTestcases;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import orangeHrmPageObjects.HomePageObject;
 import orangeHrmPageObjects.LoginPageObject;
 
@@ -18,7 +20,10 @@ import org.testng.annotations.AfterClass;
 public class TC_003_LogOut extends BaseClass{
 
 	@Test
-	public void OrangeHrm_TC003_logOut() throws InterruptedException  {
+	@Parameters("crossbrowser")
+	public void OrangeHrm_TC003_logOut(String crossbrowser) throws InterruptedException  {
+		
+		testcase = extentreport.createTest("TC_003_LogOut").assignDevice(crossbrowser).assignCategory("functional");
 		LoginPageObject login = new LoginPageObject(driver);
 		HomePageObject homepage = new HomePageObject(driver);
 		// get url
@@ -34,6 +39,7 @@ public class TC_003_LogOut extends BaseClass{
 		homepage.logOutLink();
 		// verifying logout was successful
 		Assert.assertTrue(login.isLogoutSuccessful());
+		testcase.log(Status.PASS, "The logout was successful");
 	}
 
 	/*

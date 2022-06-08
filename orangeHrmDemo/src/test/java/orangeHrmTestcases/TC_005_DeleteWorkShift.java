@@ -2,6 +2,8 @@ package orangeHrmTestcases;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import orangeHrmPageObjects.DashBoardPageObject;
 import orangeHrmPageObjects.LoginPageObject;
 import orangeHrmPageObjects.WorkShiftsPageObject;
@@ -20,8 +22,10 @@ import org.testng.annotations.AfterClass;
 public class TC_005_DeleteWorkShift extends BaseClass {
 	
   @Test
-  public void OrangeHrm_TC_005_DeleteWorkShift() {
+  @Parameters("crossbrowser")
+  public void OrangeHrm_TC_005_DeleteWorkShift(String crossbrowser) {
 		
+	  testcase = extentreport.createTest("TC_005_DeleteWorkshift").assignDevice(crossbrowser).assignCategory("functional");
 		LoginPageObject login = new LoginPageObject(driver);
 		DashBoardPageObject obj = new DashBoardPageObject(driver);
 		WorkShiftsPageObject object = new WorkShiftsPageObject(driver);
@@ -45,6 +49,7 @@ public class TC_005_DeleteWorkShift extends BaseClass {
 		object.clickOkAlert();
 		//verifying the selected shift is deleted.
 		Assert.assertTrue(object.isDeleted());
+		testcase.log(Status.PASS, "The Workshift was deleted successfully");
   }
   
 
