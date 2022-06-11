@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="23" total="46" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="letskodeit Functional Test Automation" duration-ms="153160" started-at="2022-06-11T17:55:37 EDT" finished-at="2022-06-11T17:58:10 EDT">
+    <groups>
+    </groups>
+    <test name="FunctionalChrome" duration-ms="153160" started-at="2022-06-11T17:55:37 EDT" finished-at="2022-06-11T17:58:10 EDT">
+      <class name="testcases.TC_020">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_020@40e6dfe1]" name="launchBrowser" is-config="true" duration-ms="1410" started-at="2022-06-11T17:57:04 EDT" finished-at="2022-06-11T17:57:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_020(java.lang.String)[pri:0, instance:testcases.TC_020@40e6dfe1]" name="TC_020" duration-ms="3019" started-at="2022-06-11T17:57:05 EDT" finished-at="2022-06-11T17:57:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_020 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_020@40e6dfe1]" name="afterClass" is-config="true" duration-ms="8" started-at="2022-06-11T17:57:08 EDT" finished-at="2022-06-11T17:57:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_020@40e6dfe1]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:57:08 EDT" finished-at="2022-06-11T17:57:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_020 status=SUCCESS method=TC_020.TC_020(java.lang.String)[pri:0, instance:testcases.TC_020@40e6dfe1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_020@40e6dfe1]" name="afterTest" is-config="true" duration-ms="691" started-at="2022-06-11T17:58:07 EDT" finished-at="2022-06-11T17:58:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_020 -->
+      <class name="testcases.TC_013">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_013@52e677af]" name="launchBrowser" is-config="true" duration-ms="1386" started-at="2022-06-11T17:56:32 EDT" finished-at="2022-06-11T17:56:34 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_013()[pri:0, instance:testcases.TC_013@52e677af]" name="TC_013" duration-ms="2761" started-at="2022-06-11T17:56:34 EDT" finished-at="2022-06-11T17:56:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_013 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_013@52e677af]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:56:36 EDT" finished-at="2022-06-11T17:56:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_013 status=SUCCESS method=TC_013.TC_013()[pri:0, instance:testcases.TC_013@52e677af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_013@52e677af]" name="afterClass" is-config="true" duration-ms="7" started-at="2022-06-11T17:56:36 EDT" finished-at="2022-06-11T17:56:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_013@52e677af]" name="afterTest" is-config="true" duration-ms="730" started-at="2022-06-11T17:58:02 EDT" finished-at="2022-06-11T17:58:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_013 -->
+      <class name="testcases.TC_002">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_002@67e2d983]" name="launchBrowser" is-config="true" duration-ms="1396" started-at="2022-06-11T17:55:42 EDT" finished-at="2022-06-11T17:55:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_002(java.lang.String)[pri:0, instance:testcases.TC_002@67e2d983]" name="TC_002" duration-ms="2118" started-at="2022-06-11T17:55:43 EDT" finished-at="2022-06-11T17:55:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_002@67e2d983]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:55:45 EDT" finished-at="2022-06-11T17:55:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_002 status=SUCCESS method=TC_002.TC_002(java.lang.String)[pri:0, instance:testcases.TC_002@67e2d983] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_002@67e2d983]" name="afterClass" is-config="true" duration-ms="18" started-at="2022-06-11T17:55:45 EDT" finished-at="2022-06-11T17:55:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_002@67e2d983]" name="afterTest" is-config="true" duration-ms="751" started-at="2022-06-11T17:57:54 EDT" finished-at="2022-06-11T17:57:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_002 -->
+      <class name="testcases.TC_001">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_001@4de5031f]" name="launchBrowser" is-config="true" duration-ms="2037" started-at="2022-06-11T17:55:37 EDT" finished-at="2022-06-11T17:55:39 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_001(java.lang.String)[pri:0, instance:testcases.TC_001@4de5031f]" name="TC_001" duration-ms="2409" started-at="2022-06-11T17:55:39 EDT" finished-at="2022-06-11T17:55:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_001@4de5031f]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:55:41 EDT" finished-at="2022-06-11T17:55:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_001 status=SUCCESS method=TC_001.TC_001(java.lang.String)[pri:0, instance:testcases.TC_001@4de5031f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_001@4de5031f]" name="afterClass" is-config="true" duration-ms="649" started-at="2022-06-11T17:55:41 EDT" finished-at="2022-06-11T17:55:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_001@4de5031f]" name="afterTest" is-config="true" duration-ms="830" started-at="2022-06-11T17:57:53 EDT" finished-at="2022-06-11T17:57:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_001 -->
+      <class name="testcases.TC_023">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_023@3ec300f1]" name="launchBrowser" is-config="true" duration-ms="1367" started-at="2022-06-11T17:57:38 EDT" finished-at="2022-06-11T17:57:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_023(java.lang.String)[pri:0, instance:testcases.TC_023@3ec300f1]" name="TC_023" duration-ms="13290" started-at="2022-06-11T17:57:40 EDT" finished-at="2022-06-11T17:57:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_023@3ec300f1]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:57:53 EDT" finished-at="2022-06-11T17:57:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_023 status=SUCCESS method=TC_023.TC_023(java.lang.String)[pri:0, instance:testcases.TC_023@3ec300f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_023@3ec300f1]" name="afterClass" is-config="true" duration-ms="39" started-at="2022-06-11T17:57:53 EDT" finished-at="2022-06-11T17:57:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_023@3ec300f1]" name="afterTest" is-config="true" duration-ms="672" started-at="2022-06-11T17:58:09 EDT" finished-at="2022-06-11T17:58:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_023 -->
+      <class name="testcases.TC_012">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_012@534df152]" name="launchBrowser" is-config="true" duration-ms="1345" started-at="2022-06-11T17:56:28 EDT" finished-at="2022-06-11T17:56:30 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_012(java.lang.String)[pri:0, instance:testcases.TC_012@534df152]" name="TC_012" duration-ms="2504" started-at="2022-06-11T17:56:30 EDT" finished-at="2022-06-11T17:56:32 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_012 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_012@534df152]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:56:32 EDT" finished-at="2022-06-11T17:56:32 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_012 status=SUCCESS method=TC_012.TC_012(java.lang.String)[pri:0, instance:testcases.TC_012@534df152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_012@534df152]" name="afterClass" is-config="true" duration-ms="39" started-at="2022-06-11T17:56:32 EDT" finished-at="2022-06-11T17:56:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_012@534df152]" name="afterTest" is-config="true" duration-ms="743" started-at="2022-06-11T17:58:02 EDT" finished-at="2022-06-11T17:58:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_012 -->
+      <class name="testcases.TC_022">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_022@105fece7]" name="launchBrowser" is-config="true" duration-ms="1618" started-at="2022-06-11T17:57:13 EDT" finished-at="2022-06-11T17:57:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_022(java.lang.String)[pri:0, instance:testcases.TC_022@105fece7]" name="TC_022" duration-ms="23895" started-at="2022-06-11T17:57:14 EDT" finished-at="2022-06-11T17:57:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_022 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_022@105fece7]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:57:38 EDT" finished-at="2022-06-11T17:57:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_022 status=SUCCESS method=TC_022.TC_022(java.lang.String)[pri:0, instance:testcases.TC_022@105fece7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_022@105fece7]" name="afterClass" is-config="true" duration-ms="36" started-at="2022-06-11T17:57:38 EDT" finished-at="2022-06-11T17:57:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_022@105fece7]" name="afterTest" is-config="true" duration-ms="754" started-at="2022-06-11T17:58:08 EDT" finished-at="2022-06-11T17:58:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_022 -->
+      <class name="testcases.TC_011">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_011@4c6e276e]" name="launchBrowser" is-config="true" duration-ms="1339" started-at="2022-06-11T17:56:25 EDT" finished-at="2022-06-11T17:56:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_011(java.lang.String)[pri:0, instance:testcases.TC_011@4c6e276e]" name="TC_011" duration-ms="2329" started-at="2022-06-11T17:56:26 EDT" finished-at="2022-06-11T17:56:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_011 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_011@4c6e276e]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:56:28 EDT" finished-at="2022-06-11T17:56:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_011 status=SUCCESS method=TC_011.TC_011(java.lang.String)[pri:0, instance:testcases.TC_011@4c6e276e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_011@4c6e276e]" name="afterClass" is-config="true" duration-ms="9" started-at="2022-06-11T17:56:28 EDT" finished-at="2022-06-11T17:56:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_011@4c6e276e]" name="afterTest" is-config="true" duration-ms="804" started-at="2022-06-11T17:58:01 EDT" finished-at="2022-06-11T17:58:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_011 -->
+      <class name="testcases.BaseClass">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.BaseClass@145eaa29]" name="beforeTest" is-config="true" duration-ms="181" started-at="2022-06-11T17:55:37 EDT" finished-at="2022-06-11T17:55:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- testcases.BaseClass -->
+      <class name="testcases.TC_010">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_010@45f45fa1]" name="launchBrowser" is-config="true" duration-ms="1338" started-at="2022-06-11T17:56:17 EDT" finished-at="2022-06-11T17:56:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_010(java.lang.String)[pri:0, instance:testcases.TC_010@45f45fa1]" name="TC_010" duration-ms="5855" started-at="2022-06-11T17:56:19 EDT" finished-at="2022-06-11T17:56:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_010 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_010@45f45fa1]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:56:25 EDT" finished-at="2022-06-11T17:56:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_010 status=SUCCESS method=TC_010.TC_010(java.lang.String)[pri:0, instance:testcases.TC_010@45f45fa1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_010@45f45fa1]" name="afterClass" is-config="true" duration-ms="33" started-at="2022-06-11T17:56:25 EDT" finished-at="2022-06-11T17:56:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_010@45f45fa1]" name="afterTest" is-config="true" duration-ms="728" started-at="2022-06-11T17:58:00 EDT" finished-at="2022-06-11T17:58:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_010 -->
+      <class name="testcases.TC_021">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_021@1b083826]" name="launchBrowser" is-config="true" duration-ms="1457" started-at="2022-06-11T17:57:08 EDT" finished-at="2022-06-11T17:57:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_021(java.lang.String)[pri:0, instance:testcases.TC_021@1b083826]" name="TC_021" duration-ms="2905" started-at="2022-06-11T17:57:10 EDT" finished-at="2022-06-11T17:57:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_021 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_021@1b083826]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:57:13 EDT" finished-at="2022-06-11T17:57:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_021 status=SUCCESS method=TC_021.TC_021(java.lang.String)[pri:0, instance:testcases.TC_021@1b083826] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_021@1b083826]" name="afterClass" is-config="true" duration-ms="23" started-at="2022-06-11T17:57:13 EDT" finished-at="2022-06-11T17:57:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_021@1b083826]" name="afterTest" is-config="true" duration-ms="733" started-at="2022-06-11T17:58:08 EDT" finished-at="2022-06-11T17:58:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_021 -->
+      <class name="testcases.TC_017">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_017@55a1c291]" name="launchBrowser" is-config="true" duration-ms="1354" started-at="2022-06-11T17:56:52 EDT" finished-at="2022-06-11T17:56:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_017(java.lang.String)[pri:0, instance:testcases.TC_017@55a1c291]" name="TC_017" duration-ms="2689" started-at="2022-06-11T17:56:53 EDT" finished-at="2022-06-11T17:56:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_017 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_017@55a1c291]" name="afterClass" is-config="true" duration-ms="23" started-at="2022-06-11T17:56:56 EDT" finished-at="2022-06-11T17:56:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_017@55a1c291]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:56:56 EDT" finished-at="2022-06-11T17:56:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_017 status=SUCCESS method=TC_017.TC_017(java.lang.String)[pri:0, instance:testcases.TC_017@55a1c291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_017@55a1c291]" name="afterTest" is-config="true" duration-ms="740" started-at="2022-06-11T17:58:05 EDT" finished-at="2022-06-11T17:58:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_017 -->
+      <class name="testcases.TC_006">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_006@4ae3c1cd]" name="launchBrowser" is-config="true" duration-ms="1371" started-at="2022-06-11T17:55:58 EDT" finished-at="2022-06-11T17:56:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_006(java.lang.String)[pri:0, instance:testcases.TC_006@4ae3c1cd]" name="TC_006" duration-ms="2753" started-at="2022-06-11T17:56:00 EDT" finished-at="2022-06-11T17:56:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_006@4ae3c1cd]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:56:03 EDT" finished-at="2022-06-11T17:56:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_006 status=SUCCESS method=TC_006.TC_006(java.lang.String)[pri:0, instance:testcases.TC_006@4ae3c1cd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_006@4ae3c1cd]" name="afterClass" is-config="true" duration-ms="18" started-at="2022-06-11T17:56:03 EDT" finished-at="2022-06-11T17:56:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_006@4ae3c1cd]" name="afterTest" is-config="true" duration-ms="775" started-at="2022-06-11T17:57:57 EDT" finished-at="2022-06-11T17:57:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_006 -->
+      <class name="testcases.TC_005">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_005@3bbc39f8]" name="launchBrowser" is-config="true" duration-ms="1347" started-at="2022-06-11T17:55:54 EDT" finished-at="2022-06-11T17:55:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_005(java.lang.String)[pri:0, instance:testcases.TC_005@3bbc39f8]" name="TC_005" duration-ms="3068" started-at="2022-06-11T17:55:55 EDT" finished-at="2022-06-11T17:55:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_005@3bbc39f8]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:55:58 EDT" finished-at="2022-06-11T17:55:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_005 status=SUCCESS method=TC_005.TC_005(java.lang.String)[pri:0, instance:testcases.TC_005@3bbc39f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_005@3bbc39f8]" name="afterClass" is-config="true" duration-ms="23" started-at="2022-06-11T17:55:58 EDT" finished-at="2022-06-11T17:55:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_005@3bbc39f8]" name="afterTest" is-config="true" duration-ms="778" started-at="2022-06-11T17:57:56 EDT" finished-at="2022-06-11T17:57:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_005 -->
+      <class name="testcases.TC_016">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_016@341b80b2]" name="launchBrowser" is-config="true" duration-ms="1435" started-at="2022-06-11T17:56:47 EDT" finished-at="2022-06-11T17:56:48 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_016(java.lang.String)[pri:0, instance:testcases.TC_016@341b80b2]" name="TC_016" duration-ms="2686" started-at="2022-06-11T17:56:48 EDT" finished-at="2022-06-11T17:56:51 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_016 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_016@341b80b2]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:56:51 EDT" finished-at="2022-06-11T17:56:51 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_016 status=SUCCESS method=TC_016.TC_016(java.lang.String)[pri:0, instance:testcases.TC_016@341b80b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_016@341b80b2]" name="afterClass" is-config="true" duration-ms="823" started-at="2022-06-11T17:56:51 EDT" finished-at="2022-06-11T17:56:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcases.TC_016 -->
+      <class name="testcases.TC_015">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_015@8e0379d]" name="launchBrowser" is-config="true" duration-ms="1382" started-at="2022-06-11T17:56:41 EDT" finished-at="2022-06-11T17:56:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_015(java.lang.String)[pri:0, instance:testcases.TC_015@8e0379d]" name="TC_015" duration-ms="4379" started-at="2022-06-11T17:56:42 EDT" finished-at="2022-06-11T17:56:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_015 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_015@8e0379d]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:56:47 EDT" finished-at="2022-06-11T17:56:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_015 status=SUCCESS method=TC_015.TC_015(java.lang.String)[pri:0, instance:testcases.TC_015@8e0379d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_015@8e0379d]" name="afterClass" is-config="true" duration-ms="39" started-at="2022-06-11T17:56:47 EDT" finished-at="2022-06-11T17:56:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_015@8e0379d]" name="afterTest" is-config="true" duration-ms="753" started-at="2022-06-11T17:58:04 EDT" finished-at="2022-06-11T17:58:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_015 -->
+      <class name="testcases.TC_004">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_004@5ea434c8]" name="launchBrowser" is-config="true" duration-ms="1328" started-at="2022-06-11T17:55:49 EDT" finished-at="2022-06-11T17:55:51 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_004(java.lang.String)[pri:0, instance:testcases.TC_004@5ea434c8]" name="TC_004" duration-ms="3323" started-at="2022-06-11T17:55:51 EDT" finished-at="2022-06-11T17:55:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_004@5ea434c8]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:55:54 EDT" finished-at="2022-06-11T17:55:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_004 status=SUCCESS method=TC_004.TC_004(java.lang.String)[pri:0, instance:testcases.TC_004@5ea434c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_004@5ea434c8]" name="afterClass" is-config="true" duration-ms="21" started-at="2022-06-11T17:55:54 EDT" finished-at="2022-06-11T17:55:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_004@5ea434c8]" name="afterTest" is-config="true" duration-ms="760" started-at="2022-06-11T17:57:55 EDT" finished-at="2022-06-11T17:57:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_004 -->
+      <class name="testcases.TC_014">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_014@35083305]" name="launchBrowser" is-config="true" duration-ms="1395" started-at="2022-06-11T17:56:36 EDT" finished-at="2022-06-11T17:56:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_014()[pri:0, instance:testcases.TC_014@35083305]" name="TC_014" duration-ms="3287" started-at="2022-06-11T17:56:38 EDT" finished-at="2022-06-11T17:56:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_014 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_014@35083305]" name="getResult" is-config="true" duration-ms="1" started-at="2022-06-11T17:56:41 EDT" finished-at="2022-06-11T17:56:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_014 status=SUCCESS method=TC_014.TC_014()[pri:0, instance:testcases.TC_014@35083305] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_014@35083305]" name="afterClass" is-config="true" duration-ms="41" started-at="2022-06-11T17:56:41 EDT" finished-at="2022-06-11T17:56:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_014@35083305]" name="afterTest" is-config="true" duration-ms="774" started-at="2022-06-11T17:58:03 EDT" finished-at="2022-06-11T17:58:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_014 -->
+      <class name="testcases.TC_003">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_003@5d47c63f]" name="launchBrowser" is-config="true" duration-ms="1335" started-at="2022-06-11T17:55:45 EDT" finished-at="2022-06-11T17:55:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_003(java.lang.String)[pri:0, instance:testcases.TC_003@5d47c63f]" name="TC_003" duration-ms="2596" started-at="2022-06-11T17:55:47 EDT" finished-at="2022-06-11T17:55:49 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_003@5d47c63f]" name="afterClass" is-config="true" duration-ms="31" started-at="2022-06-11T17:55:49 EDT" finished-at="2022-06-11T17:55:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_003@5d47c63f]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:55:49 EDT" finished-at="2022-06-11T17:55:49 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_003 status=SUCCESS method=TC_003.TC_003(java.lang.String)[pri:0, instance:testcases.TC_003@5d47c63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_003@5d47c63f]" name="afterTest" is-config="true" duration-ms="774" started-at="2022-06-11T17:57:55 EDT" finished-at="2022-06-11T17:57:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_003 -->
+      <class name="testcases.TC_009">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_009@589b3632]" name="launchBrowser" is-config="true" duration-ms="1347" started-at="2022-06-11T17:56:12 EDT" finished-at="2022-06-11T17:56:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_009(java.lang.String)[pri:0, instance:testcases.TC_009@589b3632]" name="TC_009" duration-ms="4150" started-at="2022-06-11T17:56:13 EDT" finished-at="2022-06-11T17:56:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_009 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_009@589b3632]" name="getResult" is-config="true" duration-ms="2" started-at="2022-06-11T17:56:17 EDT" finished-at="2022-06-11T17:56:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_009 status=SUCCESS method=TC_009.TC_009(java.lang.String)[pri:0, instance:testcases.TC_009@589b3632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_009@589b3632]" name="afterClass" is-config="true" duration-ms="33" started-at="2022-06-11T17:56:17 EDT" finished-at="2022-06-11T17:56:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_009@589b3632]" name="afterTest" is-config="true" duration-ms="791" started-at="2022-06-11T17:57:59 EDT" finished-at="2022-06-11T17:58:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_009 -->
+      <class name="testcases.TC_008">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_008@ca263c2]" name="launchBrowser" is-config="true" duration-ms="1369" started-at="2022-06-11T17:56:07 EDT" finished-at="2022-06-11T17:56:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_008(java.lang.String)[pri:0, instance:testcases.TC_008@ca263c2]" name="TC_008" duration-ms="3964" started-at="2022-06-11T17:56:08 EDT" finished-at="2022-06-11T17:56:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_008 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_008@ca263c2]" name="afterClass" is-config="true" duration-ms="35" started-at="2022-06-11T17:56:12 EDT" finished-at="2022-06-11T17:56:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_008@ca263c2]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:56:12 EDT" finished-at="2022-06-11T17:56:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_008 status=SUCCESS method=TC_008.TC_008(java.lang.String)[pri:0, instance:testcases.TC_008@ca263c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_008@ca263c2]" name="afterTest" is-config="true" duration-ms="778" started-at="2022-06-11T17:57:59 EDT" finished-at="2022-06-11T17:57:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_008 -->
+      <class name="testcases.TC_019">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_019@2890c451]" name="launchBrowser" is-config="true" duration-ms="1408" started-at="2022-06-11T17:57:00 EDT" finished-at="2022-06-11T17:57:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_019(java.lang.String)[pri:0, instance:testcases.TC_019@2890c451]" name="TC_019" duration-ms="2795" started-at="2022-06-11T17:57:01 EDT" finished-at="2022-06-11T17:57:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_019 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_019@2890c451]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:57:04 EDT" finished-at="2022-06-11T17:57:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_019 status=SUCCESS method=TC_019.TC_019(java.lang.String)[pri:0, instance:testcases.TC_019@2890c451] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_019@2890c451]" name="afterClass" is-config="true" duration-ms="23" started-at="2022-06-11T17:57:04 EDT" finished-at="2022-06-11T17:57:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_019@2890c451]" name="afterTest" is-config="true" duration-ms="717" started-at="2022-06-11T17:58:06 EDT" finished-at="2022-06-11T17:58:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_019 -->
+      <class name="testcases.TC_007">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_007@29f69090]" name="launchBrowser" is-config="true" duration-ms="1391" started-at="2022-06-11T17:56:03 EDT" finished-at="2022-06-11T17:56:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_007(java.lang.String)[pri:0, instance:testcases.TC_007@29f69090]" name="TC_007" duration-ms="2478" started-at="2022-06-11T17:56:04 EDT" finished-at="2022-06-11T17:56:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_007@29f69090]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:56:06 EDT" finished-at="2022-06-11T17:56:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_007 status=SUCCESS method=TC_007.TC_007(java.lang.String)[pri:0, instance:testcases.TC_007@29f69090] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_007@29f69090]" name="afterClass" is-config="true" duration-ms="35" started-at="2022-06-11T17:56:06 EDT" finished-at="2022-06-11T17:56:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_007@29f69090]" name="afterTest" is-config="true" duration-ms="777" started-at="2022-06-11T17:57:58 EDT" finished-at="2022-06-11T17:57:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_007 -->
+      <class name="testcases.TC_018">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.TC_018@2145433b]" name="launchBrowser" is-config="true" duration-ms="1485" started-at="2022-06-11T17:56:56 EDT" finished-at="2022-06-11T17:56:57 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_018(java.lang.String)[pri:0, instance:testcases.TC_018@2145433b]" name="TC_018" duration-ms="2371" started-at="2022-06-11T17:56:57 EDT" finished-at="2022-06-11T17:57:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_018 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC_018@2145433b]" name="getResult" is-config="true" duration-ms="0" started-at="2022-06-11T17:57:00 EDT" finished-at="2022-06-11T17:57:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_018 status=SUCCESS method=TC_018.TC_018(java.lang.String)[pri:0, instance:testcases.TC_018@2145433b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC_018@2145433b]" name="afterClass" is-config="true" duration-ms="9" started-at="2022-06-11T17:57:00 EDT" finished-at="2022-06-11T17:57:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC_018@2145433b]" name="afterTest" is-config="true" duration-ms="744" started-at="2022-06-11T17:58:05 EDT" finished-at="2022-06-11T17:58:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC_018 -->
+    </test> <!-- FunctionalChrome -->
+  </suite> <!-- letskodeit Functional Test Automation -->
+</testng-results>
