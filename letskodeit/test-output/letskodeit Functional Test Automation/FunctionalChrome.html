@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  FunctionalChrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FunctionalChrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 11 17:55:37 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>153 seconds (153160 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.TC_007.TC_007()'><b>TC_007</b><br>Test class: testcases.TC_007<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_007@29f69090</td></tr>
+<tr>
+<td title='testcases.TC_010.TC_010()'><b>TC_010</b><br>Test class: testcases.TC_010<br>Parameters: chrome</td>
+<td></td>
+<td>5</td>
+<td>testcases.TC_010@45f45fa1</td></tr>
+<tr>
+<td title='testcases.TC_012.TC_012()'><b>TC_012</b><br>Test class: testcases.TC_012<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_012@534df152</td></tr>
+<tr>
+<td title='testcases.TC_005.TC_005()'><b>TC_005</b><br>Test class: testcases.TC_005<br>Parameters: chrome</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC_005@3bbc39f8</td></tr>
+<tr>
+<td title='testcases.TC_021.TC_021()'><b>TC_021</b><br>Test class: testcases.TC_021<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_021@1b083826</td></tr>
+<tr>
+<td title='testcases.TC_008.TC_008()'><b>TC_008</b><br>Test class: testcases.TC_008<br>Parameters: chrome</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC_008@ca263c2</td></tr>
+<tr>
+<td title='testcases.TC_004.TC_004()'><b>TC_004</b><br>Test class: testcases.TC_004<br>Parameters: chrome</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC_004@5ea434c8</td></tr>
+<tr>
+<td title='testcases.TC_014.TC_014()'><b>TC_014</b><br>Test class: testcases.TC_014</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC_014@35083305</td></tr>
+<tr>
+<td title='testcases.TC_015.TC_015()'><b>TC_015</b><br>Test class: testcases.TC_015<br>Parameters: chrome</td>
+<td></td>
+<td>4</td>
+<td>testcases.TC_015@8e0379d</td></tr>
+<tr>
+<td title='testcases.TC_017.TC_017()'><b>TC_017</b><br>Test class: testcases.TC_017<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_017@55a1c291</td></tr>
+<tr>
+<td title='testcases.TC_006.TC_006()'><b>TC_006</b><br>Test class: testcases.TC_006<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_006@4ae3c1cd</td></tr>
+<tr>
+<td title='testcases.TC_001.TC_001()'><b>TC_001</b><br>Test class: testcases.TC_001<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_001@4de5031f</td></tr>
+<tr>
+<td title='testcases.TC_002.TC_002()'><b>TC_002</b><br>Test class: testcases.TC_002<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_002@67e2d983</td></tr>
+<tr>
+<td title='testcases.TC_011.TC_011()'><b>TC_011</b><br>Test class: testcases.TC_011<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_011@4c6e276e</td></tr>
+<tr>
+<td title='testcases.TC_018.TC_018()'><b>TC_018</b><br>Test class: testcases.TC_018<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_018@2145433b</td></tr>
+<tr>
+<td title='testcases.TC_019.TC_019()'><b>TC_019</b><br>Test class: testcases.TC_019<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_019@2890c451</td></tr>
+<tr>
+<td title='testcases.TC_020.TC_020()'><b>TC_020</b><br>Test class: testcases.TC_020<br>Parameters: chrome</td>
+<td></td>
+<td>3</td>
+<td>testcases.TC_020@40e6dfe1</td></tr>
+<tr>
+<td title='testcases.TC_009.TC_009()'><b>TC_009</b><br>Test class: testcases.TC_009<br>Parameters: chrome</td>
+<td></td>
+<td>4</td>
+<td>testcases.TC_009@589b3632</td></tr>
+<tr>
+<td title='testcases.TC_013.TC_013()'><b>TC_013</b><br>Test class: testcases.TC_013</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_013@52e677af</td></tr>
+<tr>
+<td title='testcases.TC_016.TC_016()'><b>TC_016</b><br>Test class: testcases.TC_016<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_016@341b80b2</td></tr>
+<tr>
+<td title='testcases.TC_003.TC_003()'><b>TC_003</b><br>Test class: testcases.TC_003<br>Parameters: chrome</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC_003@5d47c63f</td></tr>
+<tr>
+<td title='testcases.TC_023.TC_023()'><b>TC_023</b><br>Test class: testcases.TC_023<br>Parameters: chrome</td>
+<td></td>
+<td>13</td>
+<td>testcases.TC_023@3ec300f1</td></tr>
+<tr>
+<td title='testcases.TC_022.TC_022()'><b>TC_022</b><br>Test class: testcases.TC_022<br>Parameters: chrome</td>
+<td></td>
+<td>23</td>
+<td>testcases.TC_022@105fece7</td></tr>
+</table><p>
+</body>
+</html>
